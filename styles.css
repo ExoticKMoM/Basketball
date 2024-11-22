@@ -1,0 +1,76 @@
+/* Global Style */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e0f7fa; /* Soft cyan background */
+    color: #333;
+}
+
+header {
+    background: #ff4081; /* Vibrant pink for header */
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    background-color: #6200ea; /* Purple background for nav links */
+    transition: background 0.3s, transform 0.2s;
+}
+
+nav ul li a:hover {
+    background: #3700b3; /* Darker purple on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+main {
+    padding: 3rem 2rem;
+    background-color: #f3f4f6; /* Light gray background for the main area */
+}
+
+section {
+    margin-bottom: 2.5rem;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+section:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-top: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #ff4081; /* Matching footer color with the header */
+    color: #fff;
+}
